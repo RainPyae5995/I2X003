@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Form</title>
+</head>
+
+<body>
+	<h2>FORM</h2>
+	<fieldset>
+		<legend align="center">This is registration form.</legend>
+	<form action="" method="" enctype="multipart/form-data">
+		<label for="username">Username</label>
+		<input type="text" name="username" id="username" class="" placeholder="Enter your name" minlength="1" maxlength="16" required />
+		<br/>
+
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password" class="" />
+		<br/>
+
+		<label for="gmail">Gmail</label>
+		<input type="email" name="gmail" id="gmail" class="" />
+		<br/>
+
+		<label for="age">Age</label>
+		<input type="number" name="age" id="age" class="" min="18" max="30" />
+		<br/>
+
+		<label for="phno">Phone Number</label>
+		<input type="number" name="phno" id="phno" class="" />
+		<br/>
+
+		<label for="dob">Date Of Birth</label>
+		<input type="date" name="dob" id="dob" class="" />
+		<br/>
+
+		<label for="fname">Father Name</label>
+		<input type="text" name="fname" id="fname" class="" />
+		<br/>
+
+		<label>Gender</label>
+		<input type="radio" name="gender" id="genderm" class="" value="0"  /><label for="genderm">Male</label>
+
+		<input type="radio" name="gender" id="genderf" class="" value="1"  /><label for="genderf">Female</label>
+
+		<input type="radio" name="gender" id="gendero" class="" value="2" checked /><label for="gendero">Other</label>
+
+		<br/>
+
+		<label>Interest</label>
+		<input type="checkbox" name="interests" id="interests" class="" value="s" checked /><label for="interests">Sport</label>
+		<input type="checkbox" name="interests" id="intereste" class="" value="e"  checked/><label for="intereste">Entertainment</label>
+		<input type="checkbox" name="interests" id="interesta" class="" value="a" checked /><label for="interesta">Art</label>
+		<input type="checkbox" name="interests" id="interestf" class="" value="f" checked /><label for="interestf">Food&Drinks</label>
+		<br/>
+
+		<label for="country">Country</label>
+		<select name="country" id="country" class="">
+		    <option disabled selected>Choose your country</option>
+
+			<option value="mm">Myanmar</option>
+			<option value="th">Thailand</option>
+			<option value="usa">USA</option>
+			<option value="jp">Japan</option>
+			<option value="gm">Germany</option>
+			<option value="vn">Vietnam</option>
+			<option value="tk">Turkey</option>
+			<option value="pt">Pakistam</option>
+			<option value="uae">UAE</option>
+		</select>
+
+		<br/>
+
+		<textarea  name="comment" id="comment" class="" rows="10" cols="20" placeholder="Comments..."></textarea>
+		<br/>
+
+		<label>NRC File</label>
+		<input type="file" name="nrcf" id="nrcf" class="" multiple />
+		<label>NRC Back</label>
+		<input type="file" name="nrcb" id="nrcb" class="" />
+
+		<br/>
+
+
+
+		<input type="reset" name="reset" id="reset" class="" value="Cancel"  />
+
+		<input type="submit" name="submit" id="reset" class="" value="Log in" />
+
+		<br/>
+
+		<a href="https://accounts.google.com/signin/v2/challenge/pwd?continue=https%3A%2F%2Fmyaccount.google.com%2Fsigninoptions%2Fpassword&service=accountsettings&hl=en-GB&sarp=1&scc=1&rart=ANgoxcf1ENHeDncw5KXA6RqGXLJylbdUa_1ZLzajIzLCW9jqdN1JsBbz9cDulevr7HYZzVGR_CKO2O5ANEEKfZ1wFKDkyR2gMA&kdi=CAM&TL=AB_wV5qTwhKzgFVGziSoeE1H7tXmzRbKeDAYizw7jdNychTuRYM7dd11-CDadt4w&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin" target="_blank">Forgot Password</a>
+
+
+	</form>
+</fieldset>
+</body>
+
+</html>
+

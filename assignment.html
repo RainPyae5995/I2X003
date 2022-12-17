@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Assignment</title>
+	<style>
+		*{
+	margin: 0;
+	padding: 0;
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	/*background-color: silver;*/
+/*	cursor: pointer;*/
+}
+
+.navbar{
+	width: 100%;
+	height: 80px;
+	background: linear-gradient(
+          to right,
+          #fb5050,
+          #f5bf5a,
+          #fbfb5c,
+          #7efb7e,
+          #6c6cfc,
+          #bc68f8,
+          #fb97fb
+        );
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar h1{
+	/*width: 350px;
+	height: 50px;*/
+	/*background-color: #aaa;*/
+	font-style: italic;
+	font-size: 2rem;
+	color: chocolate;
+
+}
+
+ul{
+	width: 270px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+ul li{
+	list-style-type: none;
+	/*background-color: red;*/
+	font-size: 23px;
+	color: lavender;
+
+	cursor: pointer;
+}
+
+
+ul .second{
+	padding: 12px 18px;
+	background-color: #fff;
+	color: palevioletred;
+
+	border-radius: 20px 10px 20px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	transition: all 0.3s;
+}
+
+ul .second:hover{
+	color: darkmagenta;
+	background-color: transparent;
+	box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.25);
+}
+
+.topic h1{
+	/*background-color: yellow;*/
+	width: 370px;
+	font-size: 30px;
+
+	margin: 30px 93px;
+	color: peru;
+}
+
+.image{
+	width: 100%;
+	height: 400px;
+	/*background-color: skyblue;*/
+
+	/*margin: 0 50px;*/
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	object-fit: contain;
+	cursor: pointer;
+
+	margin: -18px 0;
+}
+
+.image .third img{
+	width: 380px;
+	height: 350px;
+
+}
+
+.twond{
+	height: 355px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+	margin: 5px 10px;
+
+}
+
+.twond .fourth img{
+	width: 380px;
+	height: 170px;
+
+	dispay: flex;
+
+	margin-right: 7px;
+}
+
+.twond .fifth img{
+	width: 380px;
+	height: 170px;
+
+	margin-right: 7px;
+}
+</style>
+</head>
+
+<body>
+	<section>
+		<div class="navbar">
+			<h1>E-Library</h1>
+			<ul>
+				<li class="first">Log In</li>
+				<li class="second">Join For Free</li>
+			</ul>
+		</div>
+
+		<div class="topic">
+			<h1>Explore Topics And Skills<h1>
+		</div>
+
+		<div class="image">
+			
+			<div class="third">
+				
+				<img src="img/cs.jpg" alt="Computer Science" /> 
+			</div>
+
+			<div class="twond">
+				<div class="fourth">
+					<img src="img/bs.jpg" alt="Business" />
+					<img src="img/hh.jpg" alt="Health" />
+				</div>
+
+				<div class="fifth">
+					<img src="img/ll.jpg" alt="Language Learning" />
+					<img src="img/pd.jpg" alt="Personal Development" />
+				</div>
+
+			</div>
+		</div>
+
+
+		
+	</section>
+</body>
+
+</html>

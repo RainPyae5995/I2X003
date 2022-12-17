@@ -1,0 +1,79 @@
+body{
+	background-color: silver;
+}
+
+p{
+	         /*s    s     c*/
+	border: 3px solid #000;
+}
+
+div p{
+	border: 2px dashed #000;
+}
+
+div p:nth-of-type(1){
+	border:3px dotted rgba(0, 0, 0, 1);
+}
+
+div p:nth-of-type(2){
+	border: 3px solid deepskyblue;
+}
+
+div p:nth-child(3){
+	border: 3px double #000;
+}
+
+div p:last-child{
+	border: 3px inset gray;
+	border: ;
+}
+
+.filter{
+	width: 400px;
+	height: 400px;
+	/*background-color: peachpuff;*/
+	background-image: linear-gradient(rgba(171,71,192,0.67),rgba(215,109,94,0.67)),url('../img/naruto.png') ;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.fd p{
+	background-color: sienna;
+	border: none;
+}
+
+.fd p:nth-of-type(2){
+	background-color: sienna;
+	border: none;
+}
+
+.fd p:nth-of-type(3){
+	background-color: sienna;
+	border: none;
+}
+
+.fd p:nth-of-type(4){
+	background-color: sienna;
+	border: none;
+}
+
+.fd p:nth-of-type(5){
+	background-color: sienna;
+	border: none;
+}
+
+/*override*/
+/*ssc means stroke,
+style
+,color*/
+
+/*Combinators are 1.Tag to tag 2.class to tag
+*/
+
+/*all pseudo class have full column. (:) _ class-div p:nth-of-type(){
+}*/
+
+/*:nth-of-type(n)
+:nth-child(n)
+:last-child
+:first-child*/
